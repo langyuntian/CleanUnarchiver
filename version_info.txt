@@ -1,0 +1,33 @@
+# UTF-8
+# 研融科技 · 干净解压工具 版本信息
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        u'080404b0',
+        [
+          StringStruct(u'CompanyName', u'深圳市研融科技有限公司'),
+          StringStruct(u'FileDescription', u'干净解压工具 CleanUnarchiver - 无广告、无捆绑的本地解压缩工具'),
+          StringStruct(u'FileVersion', u'1.0.0.0'),
+          StringStruct(u'InternalName', u'CleanUnarchiver'),
+          StringStruct(u'LegalCopyright', u'Copyright (C) 2026 深圳市研融科技有限公司'),
+          StringStruct(u'LegalTrademarks', u'软件著作权及知识产权归深圳市研融科技有限公司所有'),
+          StringStruct(u'OriginalFilename', u'CleanUnarchiver.exe'),
+          StringStruct(u'ProductName', u'干净解压工具 CleanUnarchiver'),
+          StringStruct(u'ProductVersion', u'1.0.0.0')
+        ]
+      )
+    ]),
+    VarFileInfo([VarStruct(u'Translation', [0x0804, 1200])])
+  ]
+)

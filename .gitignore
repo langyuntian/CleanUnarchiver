@@ -1,0 +1,27 @@
+# ---- 敏感文件，切勿提交到公开仓库 ----
+# 证书私钥 / 签名相关
+*.pfx
+*.p12
+*.cer
+*.crt
+*.key
+yanrong_signing.*
+
+# 构建产物（安装包/EXE 较大，建议通过 Releases 单独发布，不入仓库）
+installer/
+dist/
+build/
+*.spec
+
+# 打包中间产物
+__pycache__/
+*.pyc
+
+# 临时调试文件
+_clitest/
+_*.txt
+!THIRD_PARTY_LICENSES.txt
+
+# 操作系统/编辑器
+Thumbs.db
+Desktop.ini
