@@ -1,26 +1,34 @@
 第三方开源组件许可声明
 ======================
-干净解压工具 CleanUnarchiver 使用了以下第三方开源组件。其版权归各自作者所有，本声明随软件一并分发，满足各组件许可的再分发要求。
+干净解压工具 CleanUnarchiver 使用了以下第三方开源组件。其版权归各自作者所有。本声明随软件一并分发，以满足各组件许可协议的再分发要求。
 
-组件清单
---------
-| 组件 | 用途 | 许可类型 |
-|------|------|----------|
-| py7zr | 7z 解压 | LGPL-2.1-or-later / MIT 双许可（以实际发布版本为准） |
-| rarfile | RAR 解压接口 | ISC 类许可 |
-| pyzstd | Zstandard 解压 | BSD-3-Clause |
-| lz4 | LZ4 解压 | BSD-2-Clause |
-| pyzipper | WinZip AES 加密 zip 解压 | MIT |
-| pycryptodomex | AES 加解密支持 | 公有领域（Public Domain）+ BSD 双许可（以实际版本为准） |
-| tkinterdnd2 | 拖拽支持 | MIT |
-| Pillow (PIL) | 图标生成 | HPND / MIT-CMU |
-| UnRAR（RARLAB 官方免费版） | RAR 解压 | RARLAB Freeware（见 UnRAR_LICENSE.txt） |
-| expand.exe | CAB 解压 | Windows 系统自带组件（微软） |
+一、组件清单（版本与精确许可，已按本机实际安装版本核对）
+------------------------------------------------------
+| 组件 | 版本 | 用途 | 许可协议 |
+|------|------|------|----------|
+| py7zr | 1.1.3 | 7z 解压 | LGPL-2.1-or-later |
+| rarfile | 4.5 | RAR 解压接口 | ISC |
+| pyzstd | 0.19.1 | Zstandard 解压 | BSD-3-Clause |
+| lz4 | 4.4.5 | LZ4 解压 | BSD-3-Clause |
+| pyzipper | 0.4.0 | WinZip AES 加密 zip 解压 | MIT |
+| pycryptodomex | 3.23.0 | AES 加解密支持 | BSD + Public Domain |
+| tkinterdnd2 | 0.6.3 | 拖拽支持 | MIT |
+| Pillow (PIL) | 12.3.0 | 图标生成 | MIT-CMU |
+| UnRAR（RARLAB 官方免费版） | 7.30 beta 1 | RAR 解压 | RARLAB Freeware（见 UnRAR_LICENSE.txt） |
+| expand.exe | Windows 系统组件 | CAB 解压 | 微软（系统自带，不随本软件分发） |
 
-说明
-----
-1. 各组件以「不改动、按原许可分发」方式静态/动态集成进本软件，功能均为**解压**用途，不包含 RAR 等专有压缩算法的反向工程。
-2. 如需组件的完整许可全文，可访问各组件官方仓库或联系权利人索取。
-3. 本软件整体著作权及知识产权归深圳市研融科技有限公司所有。
+二、关于 LGPL 组件（py7zr）的合规说明
+------------------------------------
+1. py7zr 采用 LGPL-2.1-or-later 许可。LGPL 允许将库集成进其他程序并再分发，但要求：
+   (a) 保留版权与许可声明（本声明即此义务）；且
+   (b) 允许使用者取得并修改该库的源代码。
+2. 干净解压工具**整个工程源代码已公开**于 GitHub 仓库（langyuntian/CleanUnarchiver），包含所集成的全部第三方组件源码；使用者可自由获取、查看与修改，满足 LGPL 的源码获取与再链接义务。
+3. 本软件以「不改动第三方组件、按原许可再分发」方式集成，功能均为解压用途。
+
+三、其他说明
+----------
+1. 本软件不包含对 RAR 等专有压缩算法的反向工程；RAR 解压依赖 RARLAB 官方 UnRAR 免费版，其许可见 UnRAR_LICENSE.txt。
+2. 各组件许可全文可访问其官方仓库，或联系权利人索取。
+3. 本软件整体著作权及知识产权归深圳市研融科技有限公司所有；第三方组件版权归各自作者所有。
 
 本声明随干净解压工具一起分发。
